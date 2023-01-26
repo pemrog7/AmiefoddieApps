@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.MyProfile">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#F5F5F5">
+            <Label Text="My Profile"  Margin="145,20,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Image Source="profil.png" Margin="-290,10,7,14" WidthRequest="85" HeightRequest="80"></Image>
+            <Label Text="Ms.Brenda"  Margin="115,-90,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text="+628123456789"  Margin="115,-5,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="#757575" ></Label>
+            <Label Text="brenda@gmail.com"  Margin="115,-5,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="#757575" ></Label>
+            <Image Source="hp.png" Margin="-325,45,7,14" WidthRequest="20" HeightRequest="30"></Image>
+            <Label Text="Order History"  Margin="-160,-48,0,0" HorizontalOptions="Center" 
+                   WidthRequest="110" HeightRequest="205"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btnpanah" Source="panah.png" Margin="300,-30,-45,141" BackgroundColor="Transparent"  WidthRequest="20" HeightRequest="25" 
+                          Clicked="Btnpanah_Clicked"></ImageButton>
+            <Image Source="lg.png" Margin="-330,-100,7,14" WidthRequest="25" HeightRequest="35"></Image>
+            <Label Text="Language"  Margin="30,-50,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <ImageButton x:Name="BtnPanah" Source="panah.png" Margin="300,-30,-45,141" BackgroundColor="Transparent"  WidthRequest="20" HeightRequest="25"
+                          Clicked="BtnPanah_Clicked"></ImageButton>
+            <Image Source="ad.png" Margin="-330,-100,7,14" WidthRequest="25" HeightRequest="35"></Image>
+            <Label Text="My address"  Margin="30,-46,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <ImageButton x:Name="BtnPk" Source="panah.png" Margin="300,-30,-45,141" BackgroundColor="Transparent"  WidthRequest="20" HeightRequest="25"
+                          Clicked="BtnPk_Clicked"></ImageButton>
+            <Image Source="Group554.png" Margin="5,186,7,13" WidthRequest="380" HeightRequest="50"></Image>
+            <ImageButton x:Name="Btnhistory" Source="history.png" Margin="-10,-55,90,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btnhistory_Clicked"></ImageButton>
+            <ImageButton x:Name="Btncart" Source="cart.png" Margin="200,-173,90,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btncart_Clicked"></ImageButton>
+            <ImageButton x:Name="BtnHome" Source="Home.png" Margin="-220,-170,90,140" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="BtnHome_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Register">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#3FC979" >
+            <Image Source="Saly1.png" Margin="11,20,40,0" WidthRequest="309" HeightRequest="279"></Image>
+            <Label Text="Let's Connect"  Margin="130,-10,56,285" HorizontalOptions="Center" WidthRequest="234" HeightRequest="58"
+                    FontSize="Large" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text="Together!"  Margin="150,-300,56,240" HorizontalOptions="Center" WidthRequest="234" HeightRequest="58"      
+                FontSize="Large" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Entry Placeholder="Username" TextColor="Black" PlaceholderColor="White" Margin="32,-260,28,198" ></Entry>
+            <Entry Placeholder="Password" IsPassword="True" TextColor="Black" PlaceholderColor="White" Margin="32,-185,28,198" ></Entry>
+            <Button x:Name="BtnRegister"
+              Text="Register" 
+              TextColor="#000000"
+              Margin="32,-160,28,0"
+              CornerRadius="30"
+              BackgroundColor="White"
+              WidthRequest="293" FontSize="Large"
+              FontAttributes="Bold"
+              TextTransform="None"
+               Clicked="BtnRegister_Clicked"
+             ></Button>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

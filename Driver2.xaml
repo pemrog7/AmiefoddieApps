@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Driver2">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5">
+            <Image Source="Maps2.png" Margin="-2,-50,2,-60" WidthRequest="372" HeightRequest="810"></Image>
+            <Image Source="k2.png" Margin="-60,-700,-8,-60" WidthRequest="900" HeightRequest="950"></Image>
+            <Image Source="kk.png" Margin="0,-800,-20,-65" WidthRequest="10" HeightRequest="10" ></Image>
+            <Image Source="k3.png" Margin="6,-40,7,-30" WidthRequest="500" HeightRequest="650"></Image>
+            <Label Text="Order Status"  Margin="-180,-500,-10,-300" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="200" HeightRequest="160"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="pjng2.png" Margin="-350,300,7,-60" WidthRequest="20" HeightRequest="340"></Image>
+            <Label Text="Order Received"  Margin="-40,-270,-10,-400" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="250" HeightRequest="40"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="Driver Heading to The Restaurant"  Margin="65,430,-10,400" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="400" HeightRequest="350"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="Driver Getting Ready"  Margin="-39,-380,-10,500" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="250" HeightRequest="40"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="Order Picked by Driver"  Margin="-39,-470,-10,500" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="250" HeightRequest="40"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="Driver On His Way to Your Location"  Margin="-40,-490,-10,500" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="250" HeightRequest="50"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="Delivered"  Margin="-40,-490,-10,500" HorizontalOptions="CenterAndExpand" 
+                   WidthRequest="250" HeightRequest="40"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+            <Image Source="Rectangle6610.png" Margin="15,-470,20,200" WidthRequest="100" HeightRequest="100"></Image>
+            <Label Text="Junaedi"  Margin="-75,-285,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="159" HeightRequest="24"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="i5.png" Margin="-295,-537,20,495" WidthRequest="60" HeightRequest="70"></Image>
+            <Image Source="V4.png" Margin="-185,-540,20,495" WidthRequest="15" HeightRequest="15"></Image>
+            <Label Text="4.9"  Margin="-160,-517,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="30" HeightRequest="30"
+                   FontSize="Micro" FontAttributes="Bold" TextColor="#FFFFFF" ></Label>
+            <Label Text="Yamaha"  Margin="300,-540,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="340" HeightRequest="30"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Label Text="AB 6969 TR"  Margin="280,-510,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="100"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btndone" Source="dnn.png" Margin="-90,-430,-100,30" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="50"
+                          Clicked="Btndone_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.OrderHistory">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#F5F5F5">
+            <Label Text="Order History"  Margin="133,20,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btnhapus" Source="trash.png" Margin="300,-65,-55,140" BackgroundColor="Transparent"  WidthRequest="45" HeightRequest="30"
+                         Clicked="Btnhapus_Clicked" ></ImageButton>
+            <Image Source="historyb.png" Margin="-370,-100,-50,4" WidthRequest="60" HeightRequest="50"></Image>
+            <Label Text="Hamburger"  Margin="70,-79,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text="IDR 150.000"  Margin="310,-67,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Label Text="5 item - 2 Classic Burger, 1 Beef Burger.."  Margin="70,-38,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="#9A9A9A" ></Label>
+            <Label Text="Finished 8 January 2023 20:42"  Margin="70,-41,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="historyf.png" Margin="-370,-10,-50,4" WidthRequest="70" HeightRequest="70"></Image>
+            <Label Text="Fries"  Margin="70,-90,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text="IDR 40.000"  Margin="325,-66,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Label Text="2 item - 2 Spicy Fries"  Margin="67,-40,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="#9A9A9A" ></Label>
+            <Label Text="Finished 31 December 2022 16:21"  Margin="66,-39,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="historyp.png" Margin="-375,-4,-50,4" WidthRequest="75" HeightRequest="75"></Image>
+            <Label Text="Pizza"  Margin="60,-90,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text=" IDR 225.000" Margin="315,-65,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Label Text="3 item - 1 Pepperoni Pizza, 1 Basil Pizza.."  Margin="60,-38,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="#9A9A9A" ></Label>
+            <Label Text="Finished 16 December 2022 10:39"  Margin="60,-35,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="Group1110.png" Margin="-35,290,-50,4" WidthRequest="373" HeightRequest="60"></Image>
+            <ImageButton x:Name="BtnHome" Source="Home.png" Margin="-255,-54,90,-210" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="BtnHome_Clicked"></ImageButton>
+            <ImageButton x:Name="Btncart" Source="cart.png" Margin="180,180,90,-145" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btncart_Clicked"></ImageButton>
+            <ImageButton x:Name="Btnuser" Source="profile.png" Margin="285,113,-30,-200" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="30"
+                          Clicked="Btnuser_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

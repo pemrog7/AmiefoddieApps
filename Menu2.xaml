@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Menu2">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFFFFF">
+                <Label Text="Detail Menu"  Margin="135,20,91,500" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="None" TextColor="Black" ></Label>
+                <Image Source="Group110.png" Margin="-50,-500,-50,4" WidthRequest="285" HeightRequest="199"></Image>
+                <Label Text="Populer Hamburger"  Margin="20,-5,91,500" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Subtitle" FontAttributes="None" TextColor="Gray" ></Label>
+                <Label Text="Classic Burger"  Margin="20,-500,91,500" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Title" FontAttributes="Bold" TextColor="#000000" ></Label>
+                <Label Text="IDR 30.000,00"  Margin="20,-535,-400,500" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+                <Image Source="Star.png" Margin="-395,-501,-50,4" WidthRequest="159" HeightRequest="24"></Image>
+                <Label Text="5.0 (2,5K Review)" Margin="-505,-39,-400,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="None" TextColor="#000000" ></Label>
+                <Label Text="Description"  Margin="20,-480,91,500" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="None" TextColor="#000000" ></Label>
+                <Label Text="classic burger with a blend of beef,
+slice cheese, tomato, hot sauce
+and mayo into one"  Margin="20,-500,91,500" HorizontalOptions="Center" 
+                   WidthRequest="310" HeightRequest="80"
+                   FontSize="Medium" FontAttributes="None" TextColor="Gray" ></Label>
+                <Image Source="Rectangle90.png" Margin="-290,-489,-50,4" WidthRequest="5" HeightRequest="5"></Image>
+                <Stepper Minimum="0" Maximum="2" Value="2" Increment="1" x:Name="stepper" />
+            <Label Text="{Binding Source={x:Reference stepper},Path=Value,StringFormat='Number={0'}" Margin="85,5,20,10" FontAttributes="Bold"/>
+
+            <Image Source="TickSquare.png" Margin="-100,-120,-200,4" WidthRequest="23" HeightRequest="23"></Image>
+                <Label Text="Free Shipping"  Margin="100,-36,-340,150" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Body" FontAttributes="None" TextColor="Black" ></Label>
+                <ImageButton x:Name="Btnmyorder" Source="Group533.png" Margin="50,-60,46,30" BackgroundColor="Transparent"  WidthRequest="253" HeightRequest="43"
+                          Clicked="Btnmyorder_Clicked"></ImageButton>
+
+                <Image Source="keranjang.png" Margin="-100,-20,-110,4" WidthRequest="383" HeightRequest="62"></Image>
+                <ImageButton x:Name="Btnhistory" Source="history.png" Margin="-40,-54,60,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btnhistory_Clicked"></ImageButton>
+                <ImageButton x:Name="BtnHome" Source="Home.png" Margin="-220,-173,90,140" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="BtnHome_Clicked"></ImageButton>
+                <ImageButton x:Name="Btnuser" Source="profile.png" Margin="300,-172,-30,141" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="30"
+                          Clicked="Btnuser_Clicked"></ImageButton>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

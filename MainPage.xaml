@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.MainPage">
+
+    <StackLayout BackgroundColor="#3FC979" >
+        <Image Source="frieshd.png" Margin="207,58,53,437" WidthRequest="150" HeightRequest="170"></Image>
+        <Image Source="burgerhd.png" Margin="7,-560,169,0" WidthRequest="300" HeightRequest="250"></Image>
+        <Image Source="pizzahd.png" Margin="180,-210,10,0" WidthRequest="400" HeightRequest="310"></Image>
+        <Label Text="Amie Foodie" Margin="0 ,0,-10,0" HorizontalOptions="Center" WidthRequest="150" HeightRequest="150"
+               FontSize="Title" FontAttributes="Bold" TextColor="Black" ></Label>
+        <Button x:Name="Btnsplash"
+            Text="Get a Food" 
+            TextColor="Black"
+            Margin="10,10,10,0"
+            CornerRadius="100"
+            BackgroundColor="White"
+            WidthRequest="293" FontSize="Large"
+            FontAttributes="Bold"
+            TextTransform="None"
+            Clicked="Btnsplash_Clicked"
+        ></Button>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Homepage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5" >
+            <Label Text="Hi!" Margin="-260,40,25,500" HorizontalOptions="Center" 
+                   WidthRequest="35" HeightRequest="35"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#757575" ></Label>
+            <Label Text="Set your location"  Margin="-62,-510,60,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="50"
+                   FontSize="Small" FontAttributes="None" TextColor="#757575" ></Label>
+            <Image Source="location.png" Margin="-90,-545,260,556" WidthRequest="30" HeightRequest="35"></Image>
+            <ImageButton x:Name="Btnprofile" Source="profil.png" Margin="180,-620,-70,550" BackgroundColor="Transparent" WidthRequest="85" HeightRequest="80"
+                          Clicked="Btnprofile_Clicked"></ImageButton>
+            <Label Text="Let's Find Something Delicious!"  Margin="20,-555,91,300" HorizontalOptions="Center" 
+                   WidthRequest="400" HeightRequest="200"
+                   FontSize="Title" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Label Text="Food Category"  Margin="15,-270,100,600" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="foodc.png" Margin="20,-630,25,300" BackgroundColor="Transparent"  WidthRequest="385" HeightRequest="120" ></Image>
+            <Button x:Name="BtnFries"
+              Text="Fries"
+              TextColor="Black"
+              BackgroundColor="Transparent"
+              Margin="-110,-390,-185,220"
+              WidthRequest="293" FontSize="Small"
+              FontAttributes="Bold"
+              TextTransform="None"    
+              Clicked="BtnFries_Clicked"></Button>
+
+            <Button x:Name="BtnPizza"
+              Text="Pizza"
+              TextColor="Black"
+              BackgroundColor="Transparent"
+              Margin="-125,-275,-405 ,198"
+              WidthRequest="293" FontSize="Small"
+              FontAttributes="Bold"
+              TextTransform="None"    
+              Clicked="BtnPizza_Clicked"></Button>
+            <Label Text="Popular"  Margin="15,-180,91,500" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="Group109.png" Margin="-220,-495,-30,500" BackgroundColor="Transparent"  WidthRequest="170" HeightRequest="175" ></Image>
+            <Label Text="IDR 30.000,00"  Margin="-65,-675,90,300" HorizontalOptions="Center" 
+                   WidthRequest="190" HeightRequest="30"
+                   FontSize="Body" FontAttributes="None" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btnplus" Source="Plus.png" Margin="-220,-339,-165,100" BackgroundColor="Transparent"  WidthRequest="40" HeightRequest="40"
+                          Clicked="Btnplus_Clicked"></ImageButton>
+            <Image Source="Group1.png" Margin="-310,-117,0,500" BackgroundColor="Transparent"  WidthRequest="32" HeightRequest="18" ></Image>
+            <Label Text="Classic Burger" Margin="-70,-420,25,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="120"
+                   FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Image Source="Group102.png" Margin="200,-660,10,600" BackgroundColor="Transparent"  WidthRequest="170" HeightRequest="175" ></Image>
+            <Label Text="IDR 30.000,00"  Margin="220,-775,9,500" HorizontalOptions="Center" 
+                   WidthRequest="190" HeightRequest="30"
+                   FontSize="Body" FontAttributes="None" TextColor="#000000" ></Label>
+            <Image Source="Group1.png" Margin="72,-509,0,500" BackgroundColor="Transparent"  WidthRequest="32" HeightRequest="18" ></Image>
+            <Image Source="Plus.png" Margin="158,-555,-165,100" BackgroundColor="Transparent"  WidthRequest="40" HeightRequest="40"></Image>
+            <Label Text="Double Cheese" Margin="240,-20,30,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="120"
+                   FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text="Egg Burger" Margin="255,-510,30,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="120"
+                   FontSize="Subtitle" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Image Source="b4.png" Margin="-180,-465,10,200" BackgroundColor="Transparent"  WidthRequest="170" HeightRequest="175" ></Image>
+            <Image Source="Group111.png" Margin="-150,-345,40,125" BackgroundColor="Transparent"  WidthRequest="130" HeightRequest="135" ></Image>
+            <Label Text="IDR 30.000,00"  Margin="-150,-298,9,500" HorizontalOptions="Center" 
+                   WidthRequest="190" HeightRequest="30"
+                   FontSize="Body" FontAttributes="None" TextColor="#000000" ></Label>
+            <Image Source="Plus.png" Margin="-220,-537,-165,100" BackgroundColor="Transparent"  WidthRequest="40" HeightRequest="40"></Image>
+            <Image Source="Group1.png" Margin="-310,-120,0,500" BackgroundColor="Transparent"  WidthRequest="32" HeightRequest="18" ></Image>
+            <Image Source="b4.png" Margin="200,-546,10,200" BackgroundColor="Transparent"  WidthRequest="170" HeightRequest="175" ></Image>
+            <Image Source="Group110.png" Margin="-265,-350,-450,161" BackgroundColor="Transparent"  WidthRequest="120" HeightRequest="125" ></Image>
+            <Label Text="IDR 30.000,00"  Margin="220,-320,9,500" HorizontalOptions="Center" 
+                   WidthRequest="190" HeightRequest="30"
+                   FontSize="Body" FontAttributes="None" TextColor="#000000" ></Label>
+            <Image Source="Plus.png" Margin="158,-537,-165,100" BackgroundColor="Transparent"  WidthRequest="40" HeightRequest="40"></Image>
+            <Image Source="Group1.png" Margin="70,-120,0,500" BackgroundColor="Transparent"  WidthRequest="32" HeightRequest="18" ></Image>
+            <Image Source="Group72.png" Margin="-10,-420,-10,200" BackgroundColor="Transparent"  WidthRequest="373" HeightRequest="52" ></Image>
+
+            <ImageButton x:Name="Btnhistory" Source="history.png" Margin="-40,-245,90,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btnhistory_Clicked"></ImageButton>
+            <ImageButton x:Name="Btncart" Source="cart.png" Margin="189,-173,90,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btncart_Clicked"></ImageButton>
+            <ImageButton x:Name="Btnuser" Source="profile.png" Margin="300,-172,-30,141" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="30"
+                          Clicked="Btnuser_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

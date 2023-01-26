@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.order2">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5" >
+            <Label Text="My Order"  Margin="149,20,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Label Text="Empty"  Margin="169,300,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#BCBCBC" ></Label>
+            <Button x:Name="Btnorder2"
+              Text="Choose Your Food" 
+              TextColor="#FFFFFF"
+              Margin="32,200,28,198"
+              CornerRadius="10"
+              BackgroundColor="#30D54A"
+              WidthRequest="293" FontSize="Large"
+              FontAttributes="Bold"
+              TextTransform="None"
+              Clicked="Btnorder2_Clicked"
+                     ></Button>
+            <Image Source="Group2.png" Margin="-10,-160,-10,200" BackgroundColor="Transparent"  WidthRequest="373" HeightRequest="52" ></Image>
+            <ImageButton x:Name="Btnhistory" Source="history.png" Margin="-55,-245,60,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btnhistory_Clicked"></ImageButton>
+            <ImageButton x:Name="BtnHome" Source="Home.png" Margin="-230,-173,90,140" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="BtnHome_Clicked"></ImageButton>
+            <ImageButton x:Name="Btnuser" Source="profile.png" Margin="300,-172,-30,141" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="30"
+                          Clicked="Btnuser_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

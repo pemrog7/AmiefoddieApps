@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Ptiga">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5">
+            <Label Text="Payment Method" Margin="40,20,25,500" HorizontalOptions="Center" 
+                   WidthRequest="180" HeightRequest="200"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="Group1112.png" Margin="-90,-470,260,556" WidthRequest="35" HeightRequest="40"></Image>
+            <Label Text="Cash" Margin="-160,-595,25,500" HorizontalOptions="Center" 
+                   WidthRequest="40" HeightRequest="55"
+                   FontSize="Small" FontAttributes="None" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btncash" Source="V3.png" Margin="257,-532,-100,30" BackgroundColor="Transparent"  WidthRequest="20" HeightRequest="20"
+                         Clicked="Btncash_Clicked"></ImageButton>
+            <Image Source="Group1113.png" Margin="-75,10,260,556" WidthRequest="25" HeightRequest="30"></Image>
+            <Label Text="OVO" Margin="-160,-590,25,500" HorizontalOptions="Center" 
+                   WidthRequest="35" HeightRequest="35"
+                   FontSize="Small" FontAttributes="None" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btnovo" Source="V3.png" Margin="258,-530,-100,30" BackgroundColor="Transparent"  WidthRequest="20" HeightRequest="20"
+                         Clicked="Btnovo_Clicked"></ImageButton>
+            <Image Source="V2.png" Margin="-90,5,260,556" WidthRequest="30" HeightRequest="35"></Image>
+            <Label Text="Master Card" Margin="-20,-590,25,500" HorizontalOptions="Center" 
+                   WidthRequest="180" HeightRequest="200"
+                   FontSize="Small" FontAttributes="None" TextColor="#000000" ></Label>
+            <ImageButton x:Name="BtnMC" Source="V1.png" Margin="260,-570,-100,170" BackgroundColor="Transparent"  WidthRequest="20" HeightRequest="20"
+                        ></ImageButton>
+            <Button x:Name="BtnOK"
+              Text="OK" 
+              TextColor="#FFFFFF"
+              Margin="30,250,30,0"
+              CornerRadius="10"
+              BackgroundColor="#30D54A"
+              WidthRequest="319" FontSize="Medium"
+              FontAttributes="Bold"
+              TextTransform="None"
+                    Clicked="BtnOK_Clicked"
+                    ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

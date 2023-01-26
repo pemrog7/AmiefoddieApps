@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.order3">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5">
+            <Label Text="My Order"  Margin="135,20,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="Rectangle6.png" Margin="15,-235,15,0" WidthRequest="500" HeightRequest="621"></Image>
+            <Label Text="Classic Burger"  Margin="150,-365,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Subtitle" FontAttributes="None" TextColor="#000000" ></Label>
+            <Image Source="Group110.png" Margin="-295,-20,0,0" WidthRequest="70" HeightRequest="70"></Image>
+            <Stepper Maximum="2" Value="2" Increment="1" x:Name="stepper"  HorizontalOptions="Center" Margin="25,-57,20,10" WidthRequest="180" HeightRequest="50" />
+            <Label Text="{Binding Source={x:Reference stepper},Path=Value,StringFormat='Number={0'}" Margin="30,-15,20,10" HorizontalOptions="Center" />
+
+            <Label Text="IDR 60.000,00"  Margin="310,-75,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="Total"  Margin="-70,350,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="None" TextColor="#000000" ></Label>
+            <Label Text="IDR 60.000,00"  Margin="234,-45,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="None" TextColor="#000000" ></Label>
+            <Image Source="Rectangle597.png" Margin="30,-10,30,0" BackgroundColor="Transparent"  WidthRequest="311" HeightRequest="124"></Image>
+            <Button x:Name="BtnCheckout" Text="Choose Payment Method" BackgroundColor="Transparent" Margin="0,-93,0,0" TextColor="#FFFFFF" FontSize="Body" Clicked="BtnCheckout_Clicked"></Button>
+            <Image Source="Group2.png" Margin="-10,75,-10,200" BackgroundColor="Transparent"  WidthRequest="373" HeightRequest="52" ></Image>
+            <ImageButton x:Name="Btnhistory" Source="history.png" Margin="-55,-245,60,141" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="Btnhistory_Clicked"></ImageButton>
+            <ImageButton x:Name="BtnHome" Source="Home.png" Margin="-230,-173,90,140" BackgroundColor="Transparent"  WidthRequest="25" HeightRequest="25"
+                          Clicked="BtnHome_Clicked"></ImageButton>
+            <ImageButton x:Name="Btnuser" Source="profile.png" Margin="300,-172,-30,141" BackgroundColor="Transparent"  WidthRequest="30" HeightRequest="30"
+                          Clicked="Btnuser_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Fries">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5" >
+            <Label Text="Hi!" Margin="-260,40,25,500" HorizontalOptions="Center" 
+                   WidthRequest="35" HeightRequest="35"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#757575" ></Label>
+            <Label Text="Set your location"  Margin="-62,-510,60,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="50"
+                   FontSize="Small" FontAttributes="None" TextColor="#757575" ></Label>
+            <Image Source="location.png" Margin="-90,-545,260,556" WidthRequest="30" HeightRequest="35"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

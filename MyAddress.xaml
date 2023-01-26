@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.MyAddress">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#FFFFFF">
+            <Label Text="My Address"  Margin="135,20,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="Rectangle588.png" Margin="-52,20,-50,4" WidthRequest="360" HeightRequest="100"></Image>
+            <Image Source="Group555.png" Margin="-350,-100,-50,4" WidthRequest="54" HeightRequest="52"></Image>
+            <Label Text="Ms.Berenda"  Margin="80,-70,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="Black" ></Label>
+            <Label Text="Rose Street, Alley 2"  Margin="80,-10,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#757575" ></Label>
+            <Label Text="Yogyakarta,Indonesia"  Margin="80,-10,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#757575" ></Label>
+            <Label Text="+628123456789"  Margin="80,-10,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#757575" ></Label>
+            <Image Source="Rectangle590.png" Margin="-50,50,-50,4" WidthRequest="310" HeightRequest="60"></Image>
+            <Image Source="name.png" Margin="-330,-60,-50,4" WidthRequest="20" HeightRequest="30"></Image>
+            <Label Text="Name"  Margin="70,-34,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="Rectangle590.png" Margin="-50,30,-50,4" WidthRequest="310" HeightRequest="60"></Image>
+            <Image Source="add.png" Margin="-350,-60,-50,4" WidthRequest="300" HeightRequest="40"></Image>
+            <Label Text="Address"  Margin="70,-40,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="Rectangle590.png" Margin="-50,30,-50,4" WidthRequest="310" HeightRequest="60"></Image>
+            <Image Source="cty.png" Margin="-350,-60,-50,4" WidthRequest="300" HeightRequest="40"></Image>
+            <Label Text="City"  Margin="70,-40,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="Rectangle590.png" Margin="-50,30,-50,4" WidthRequest="310" HeightRequest="60"></Image>
+            <Image Source="wld.png" Margin="-350,-60,-50,4" WidthRequest="300" HeightRequest="40"></Image>
+            <Label Text="Country"  Margin="70,-40,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            <Image Source="Rectangle590.png" Margin="-50,30,-50,4" WidthRequest="310" HeightRequest="60"></Image>
+            <Image Source="tlpn.png" Margin="-350,-60,-50,4" WidthRequest="300" HeightRequest="40"></Image>
+            <Label Text="Phone Number"  Margin="70,-40,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Small" FontAttributes="None" TextColor="Black" ></Label>
+            
+
+
+            <ImageButton x:Name="BtnSave" Source="Group550.png" Margin="50,100,50,300" BackgroundColor="Transparent"  WidthRequest="300" HeightRequest="50"
+                          Clicked="BtnSave_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

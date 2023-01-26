@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Language">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFFFFF">
+            <Label Text="Change Language"  Margin="90,20,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Button x:Name="Btnlg"
+              Text="English (EN)" 
+              TextColor="#000000"
+              Margin="-210,-5,0,0"
+              BackgroundColor="Transparent"
+              WidthRequest="293" FontSize="Medium"
+              FontAttributes="Bold"
+              TextTransform="None"
+              Clicked="Btnlg_Clicked"
+                    ></Button>
+            <Label Text="Bahasa Indonesia (ID)"  Margin="-30,5,0,0" HorizontalOptions="Center" 
+                   WidthRequest="300" HeightRequest="60"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

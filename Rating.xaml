@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.Rating">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="#F5F5F5">
+            <Label Text="Rate Your Driver"  Margin="10,30,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="30"
+                   FontSize="Large" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="Rectangle6610.png" Margin="20,-460,20,495" WidthRequest="319" HeightRequest="70"></Image>
+            <Label Text="Junaedi"  Margin="-67,-565,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="159" HeightRequest="24"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Image Source="i5.png" Margin="-285,-536,20,495" WidthRequest="60" HeightRequest="70"></Image>
+            <Image Source="V4.png" Margin="-185,-540,20,495" WidthRequest="15" HeightRequest="15"></Image>
+            <Label Text="4.9"  Margin="-160,-517,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="30" HeightRequest="30"
+                   FontSize="Micro" FontAttributes="Bold" TextColor="#FFFFFF" ></Label>
+            <Label Text="Yamaha"  Margin="300,-537,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="340" HeightRequest="30"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Label Text="AB 6969 TR"  Margin="280,-510,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="200" HeightRequest="100"
+                   FontSize="Small" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <Label Text="Give a Rating to the Driver?"  Margin="65,-450,-10,500" HorizontalOptions="Center" 
+                   WidthRequest="340" HeightRequest="35"
+                   FontSize="Medium" FontAttributes="Bold" TextColor="#000000" ></Label>
+            <ImageButton x:Name="Btnrc" Source="rc.png" Margin="15,-475,20,495" BackgroundColor="Transparent" WidthRequest="240" HeightRequest="40"
+                            Clicked="Btnrc_Clicked"></ImageButton>
+            <ImageButton x:Name="Btnc"  Source="Group6661.png" Margin="20,-150,20,495" WidthRequest="390" HeightRequest="60"
+                         Clicked="Btnc_Clicked"></ImageButton>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

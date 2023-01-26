@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.OrderConfirm">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F5F5F5">
+            <Image Source="oc.png" Margin="52,40,52,285" WidthRequest="256" HeightRequest="315"></Image>
+            <Image Source="bb.png" Margin="56,-250,52,285" WidthRequest="20" HeightRequest="25"></Image>
+            <Label Text="Your order is confirmed and will " Margin="45,-190,25,500" HorizontalOptions="Center" 
+                   WidthRequest="240" HeightRequest="250"
+                   FontSize="Body" FontAttributes="None" TextColor="#9D9D9D" ></Label>
+            <Label Text="delivered to your location shortly" Margin="52,-730,25,500" HorizontalOptions="Center" 
+                   WidthRequest="250" HeightRequest="250"
+                   FontSize="Body" FontAttributes="None" TextColor="#9D9D9D" ></Label>
+            <ImageButton x:Name="Btncontinue" Source="Group061.png" Margin="20,-650,10,-100" BackgroundColor="Transparent"  WidthRequest="90" HeightRequest="100"
+                          Clicked="Btncontinue_Clicked"></ImageButton>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
